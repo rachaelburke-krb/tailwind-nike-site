@@ -1,13 +1,13 @@
 {
   "name": "tailwind-nike-site",
-  "homepage": "https://rachaelburke-krb.github.io/tailwind-nike-site",
+  "homepage": "https://rachaelburke-krb.github.io/tailwind-nike-site/",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite", 
     "predeploy": "npm run build",
+    "build": "vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
